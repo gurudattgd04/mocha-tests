@@ -12,7 +12,6 @@ pool:
 steps:
 - task: ArchiveFiles@2
   inputs:
-    rootFolderOrFile: : '${build.sourceDirectory}'
+    rootFolderOrFile: '${build.sourceDirectory}'
     includeRootFolder: false
-  displayName: 'Install Node.js'
 - task:  PublishBuildArtifacts@1
