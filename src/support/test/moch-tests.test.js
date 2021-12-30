@@ -15,7 +15,7 @@ describe("Mathematical Operations - Test Suite",function() {
         this.retries(1)
         let a = 10;
         let b = 20;
-        let expected = 0;
+        let expected = 30;
         expect(expected).to.be.eq(a+b);
        // setTimeout( 3000)
     })
