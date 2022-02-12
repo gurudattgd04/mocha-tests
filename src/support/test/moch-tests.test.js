@@ -11,7 +11,7 @@ describe("Mathematical Operations - Test Suite",function() {
         console.log("Before each block executed")
     })
 
-    it("Addition of two numbers", function () {
+    it("Addition of two numbers.", function () {
         this.retries(1)
         let a = 10;
         let b = 20;
