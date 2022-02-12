@@ -61,7 +61,7 @@ it("validate object destructure", () => {
     expect(_.filter(person, function (o) {return  o.age > 30}).length).to.be.eq(2);
 })
 
-it("validate promise feature", () => {
+it("validate promise feature with resolve and reject", () => {
     const test = new Promise((resolve, reject) => {
         if(true)
         {
